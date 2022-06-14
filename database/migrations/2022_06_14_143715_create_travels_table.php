@@ -15,6 +15,18 @@ class CreateTravelsTable extends Migration
     {
         Schema::create('travels', function (Blueprint $table) {
             $table->id();
+            $table->string('destination', 50);
+            $table->string('package', 100)->nullable();
+            $table->date('start_travel')->nullable();
+            $table->date('end_travel')->nullable();
+            $table->tinyInteger('travelers')->unsigned()->nullable();
+            $table->string('hotel', 50)->nullable();
+            $table->tinyInteger('rooms')->unsigned()->nullable();
+            $table->string('airline_company', 100)->nullable();
+            $table->text('description')->nullable();
+            $table->decimal('price', 6, 2 )->nullable();
+            $table->boolean('is_annulment')->default(1)->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
