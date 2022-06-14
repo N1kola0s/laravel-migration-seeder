@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class TravelersTableSeeder extends Seeder
+class TravelsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
