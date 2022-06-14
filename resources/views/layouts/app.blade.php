@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>laravel migration seeder</title>
 
 
         <!-- Styles -->
@@ -12,13 +12,15 @@
       
     </head>
     <body>
-        <header id="site_header"></header>
+        <header id="site_header"> Sono l'header </header>
         <!-- /#site_header -->
         <main id="site_main">
             @yield('content')
         </main>
         <!-- /#site_main -->
-        <footer id="site_footer"></footer>
+        <footer id="site_footer">Sono  il footer</footer>
         <!-- /#site_footer -->
     </body>
+
+    <script src="{{asset('js/app.js')}}"></script>
 </html>
