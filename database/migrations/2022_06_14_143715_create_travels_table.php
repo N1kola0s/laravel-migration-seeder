@@ -17,8 +17,8 @@ class CreateTravelsTable extends Migration
             $table->id();
             $table->string('destination', 50);
             $table->string('package', 100)->nullable();
-            $table->date('start_travel')->nullable();
-            $table->date('end_travel')->nullable();
+            $table->string('start_travel', 20)->nullable();
+            $table->string('end_travel', 20)->nullable();
             $table->tinyInteger('travelers')->unsigned()->nullable();
             $table->string('hotel', 50)->nullable();
             $table->tinyInteger('rooms')->unsigned()->nullable();
