@@ -46,8 +46,6 @@
                                     <a href="#" class="btn btn-primary w-100 text-center">Acquista viaggio</a>
                                     
 
-                                   
-
                                 </div>
                                 <!-- /.card-title -->
 
